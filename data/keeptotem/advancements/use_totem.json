@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:emerald",
+            "nbt": "{Enchantments:[]}"
+        },
+        "title": "Death shall not take my crap",
+        "description": "Die with a totem of keep inventory",
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "parent": "minecraft:adventure/totem_of_undying",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {}
+}

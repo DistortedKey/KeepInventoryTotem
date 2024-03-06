@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "keeptotem": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "keeptotem:totem"
+            }
+        }
+    },
+    "rewards": {
+        "function": "keeptotem:create_totem"
+    }
+}
