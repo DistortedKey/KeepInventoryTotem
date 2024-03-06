@@ -1,4 +1,4 @@
-clear dr4con emerald 1
+clear dr4con totem_of_undying 1
 
 advancement revoke @s only keeptotem:totem_craft
 recipe take @s keeptotem:totem
