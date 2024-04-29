@@ -18,7 +18,7 @@ execute store result score #num_of_items temp run data get storage temp_items_li
 
 scoreboard players operation #item_count temp = #num_of_items temp
 
-kill @e[distance=..5,type=item,nbt={Item:{id:"minecraft:armor_stand",Count:1b}},limit=1]
+kill @e[distance=..5,type=item,nbt={Item:{id:"minecraft:armor_stand",count:1}},limit=1]
 
 # continue loop
 execute if score #num_of_items temp matches 1.. run function keeptotem:loops/drop_loop

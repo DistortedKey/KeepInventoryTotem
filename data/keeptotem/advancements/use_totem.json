@@ -1,8 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:emerald",
-            "nbt": "{Enchantments:[]}"
+            "id": "minecraft:emerald",
+            "components": {
+                "minecraft:enchantment_glint_override" : true
+            }
         },
         "title": "Death shall not take my crap",
         "description": "Die with a totem of keep inventory",
