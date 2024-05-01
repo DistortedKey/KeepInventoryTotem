@@ -1,0 +1,1 @@
+tellraw @s {"text":"There are currently no settings for this datapack","color":"dark_red"}
